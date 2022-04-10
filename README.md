@@ -1,2 +1,2 @@
 # normality_stock_returns
-In this project, you obtain stock data from yahoo finance, plot their distribution, test normality using Jarque-Bera Test, and as an extra the risk x return matrix is plotted.
+In this project, data of daily returns from four brazilian blue chips (JBSS3, VALE3, PETR4, BBDC4) is obtained using Yahoo Finance. Density distributions are plotted, normality is tested using Jarque-Bera, and, as an extra, a risk x return matrix is shown. The code can easily be reproducted by changing the assets list (with the exact names used in Yahoo Finance) in the beggining of the code, as well as the desired start and end date, so returns from different types of assets can be tested for normality.
